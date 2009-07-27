@@ -6,9 +6,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["\343\201\250\343\201\277\343\201\237\343\201\276\343\201\225\343\201\262\343\202\215 <tommy@tmtm.org>"]
-  s.cert_chain = ["/home/sam/.gem/gem-public_cert.pem"]
   s.date = %q{2009-07-27}
-  s.description = %q{A pure Ruby CSV parser}
+  s.description = %q{A pure Ruby CSV parser wrapped into a gem version for easier install.}
   s.email = %q{}
   s.extra_rdoc_files = ["README.txt", "lib/lightcsv.rb"]
   s.files = ["README.txt", "setup.rb", "test/test_lightcsv.rb", "lib/lightcsv.rb", "Makefile", "Rakefile", "Manifest", "lightcsv.gemspec"]
@@ -17,7 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{lightcsv}
   s.rubygems_version = %q{1.3.3}
-  s.signing_key = %q{/home/sam/.gem/gem-private_key.pem}
   s.summary = %q{A pure Ruby CSV parser}
   s.test_files = ["test/test_lightcsv.rb"]
 

@@ -7,4 +7,6 @@ Echoe.new('lightcsv') do |gem|
   gem.version = "0.2.2"
   gem.url = "http://www.tmtm.org/ruby/lightcsv/"
   gem.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Lightcsv", "--main", "README.txt", "--charset", "utf-8"]
+  gem.certificate_chain = []
+  gem.private_key = nil
 end
