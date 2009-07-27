@@ -1,0 +1,7 @@
+README.txt
+setup.rb
+test/test_lightcsv.rb
+lib/lightcsv.rb
+Makefile
+Rakefile
+Manifest
