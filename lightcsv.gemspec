@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.email = %q{}
   s.extra_rdoc_files = ["README.txt", "lib/lightcsv.rb"]
   s.files = ["README.txt", "setup.rb", "test/test_lightcsv.rb", "lib/lightcsv.rb", "Makefile", "Rakefile", "Manifest", "lightcsv.gemspec"]
-  s.homepage = %q{}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Lightcsv", "--main", "README.txt"]
+  s.homepage = %q{http://www.tmtm.org/ruby/lightcsv/}
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Lightcsv", "--main", "README.txt", "--charset", "utf-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{lightcsv}
   s.rubygems_version = %q{1.3.3}
